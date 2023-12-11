@@ -1,3 +1,13 @@
+/* UTILS */
+
+:root {
+    --secondary-color: #0084FD;
+    --card-color: #B5DDFF;
+    --primary-color: #9792E4;
+    --free-color: #FDC15F;
+    --footer-color: #333333;
+}
+
 /* GENERICS */
 
 *{
@@ -6,8 +16,30 @@
     box-sizing: border-box;
 }
 
-.conteiner{
+.container{
     max-width: 1080px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 30px;
 }
+
+/* HEADER */
+
+#header {
+    background-color: var(--secondary-color);
+    height: 80px;
+}
+
+#header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container nav {
+    color: white;
+}
+
+/* ! MAIN */
+
+
