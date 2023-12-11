@@ -173,5 +173,28 @@
     min-height: 100px;
 }
 
+/* Section 5 */
+
+#section_5 {
+    margin: 5rem 0;
+
+    /* DEBUG */
+    min-height: 200px;
+}
+
+#section_5 .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+}
+
+.about_text {
+    width: 70%;
+}
+
+.about_img {
+    width: 30%;
+}
+
 
 
