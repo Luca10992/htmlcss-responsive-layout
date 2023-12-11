@@ -207,13 +207,25 @@
 
 #section_6 .container {
     width: 50%;
+    min-width: 300px;
     text-align: center;
     padding: 3rem 0;
 }
 
 /* !FOOTER */
 
+#footer {
+    background-color: var(--footer-color);
+    padding: 3rem 0;
+    /* DEBUG */
+    min-height: 100px;
+}
 
+#footer .container {
+    width: 40%;
+    min-width: 300px;
+    text-align: center;
+}
 
 
 
