@@ -20,8 +20,8 @@
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* HEADER */
@@ -81,6 +81,27 @@
     
     /* DEBUG */
     height: 100px;
+}
+
+/* SECTION 2 */
+
+#section_2 {
+    background-color: var(--primary-color);
+    
+    /* DEBUG */
+    height: 300px;
+}
+
+#section_2 .container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.app_img {
+    align-self: flex-end;
 }
 
 

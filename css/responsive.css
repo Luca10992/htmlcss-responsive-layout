@@ -2,4 +2,16 @@
     .card_2-3 {
         flex-direction: column;
     }
+
+    .strategic_img,
+    .app_img {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #section_1 > .container > .row > .col {
+        width: 100%;
+    }
 }
