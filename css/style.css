@@ -196,5 +196,24 @@
     width: 30%;
 }
 
+/* SECTION 6 */
+
+#section_6 {
+    background-color: var(--primary-color);
+
+    /* DEBUG */
+    min-height: 200px;
+}
+
+#section_6 .container {
+    width: 50%;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/* !FOOTER */
+
+
+
 
 
