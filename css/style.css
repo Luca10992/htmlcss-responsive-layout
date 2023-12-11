@@ -49,6 +49,10 @@
 
 /*  SECTION 1 */
 
+#section_1 {
+    margin-bottom: 3rem;
+}
+
 #section_1 .row {
     width: 100%;
     margin-right: -30px;
@@ -80,12 +84,13 @@
     background-color: var(--card-color);
     
     /* DEBUG */
-    height: 100px;
+    min-height: 100px;
 }
 
 /* SECTION 2 */
 
 #section_2 {
+    margin-bottom: 3rem;
     background-color: var(--primary-color);
     
     /* DEBUG */
@@ -104,6 +109,69 @@
     align-self: flex-end;
 }
 
+/* SECTION 3 */
+
+.testimonials {
+    text-align: center;
+}
+
+.card_container {
+    padding: 0 15px;
+}
+
+#section_3 .card {
+    margin: 1.5rem 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+
+    /* DEBUG */
+    min-height: 100px;
+}
+
+.card-img {
+    width: 20%;
+}
+
+.card-text {
+    width: 80%;
+}
+
+/*  SECTION 4 */
+
+#section_4 {
+    background-color: var(--primary-color);
+    margin: 5rem 0;
+    padding: 2rem 0;
+
+    /* DEBUG */
+    /* height: 400px; */
+}
+
+#section_4 h2 {
+    text-align: center;
+    color: white;
+}
+
+#section_4 .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#section_4 .col {
+    width: calc(100% / 3);
+    padding: 1rem;
+    
+}
+
+#section_4 .card {
+    background-color: white;
+
+    /* DEBUG */
+    min-height: 100px;
+}
 
 
 

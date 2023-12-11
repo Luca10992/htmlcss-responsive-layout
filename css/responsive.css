@@ -8,10 +8,24 @@
         width: 100%;
         text-align: center;
     }
+
+    #section_4 .row .col {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 480px) {
     #section_1 > .container > .row > .col {
+        width: 100%;
+    }
+
+    .card .card-img,
+    .card .card-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    #section_4 .row .col {
         width: 100%;
     }
 }
