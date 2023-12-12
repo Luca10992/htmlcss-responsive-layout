@@ -24,10 +24,16 @@
     }
 
     /* SECTION 2 */
-    .strategic_img,
-    .app_img {
+    #section_2 .strategic_img,
+    #section_2 .app_img {
         width: 100%;
         text-align: center;
+    }
+
+    #section_2 .container.tablet {
+        width: 100%;
+        padding: 0 2rem;
+        flex-wrap: wrap;
     }
 
     /* SECTION 4 */
@@ -71,6 +77,12 @@
 
     #section_1 .col .card_1-3 {
         min-height: auto;
+    }
+
+    /* SECTION 3 */
+
+    #section_3 .img_around {
+        margin: 0 auto;
     }
 
     /* SECTION 4 */
