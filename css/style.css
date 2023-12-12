@@ -24,11 +24,17 @@
     padding-right: 15px;
 }
 
+.btn {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+}
+
 /* HEADER */
 
 #header {
     background-color: var(--secondary-color);
-    height: 80px;
+    height: 70px;
     margin-bottom: 3rem;
 }
 
@@ -43,6 +49,22 @@
 
 .container nav {
     color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-btn {
+    background-color: white;
+}
+
+.header-icon {
+    display: none;
+    font-size: 1.5rem;
 }
 
 /* ! MAIN */
