@@ -362,15 +362,51 @@ ul {
 #section_5 .container {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 30px;
+    padding: 0 50px;
 }
 
 .about_text {
     width: 70%;
 }
 
+.about_text h2 {
+    font-size: 50px;
+    padding-left: 2rem;
+    color: var(--primary-color);
+}
+
+.about_text p {
+    padding: 2rem;
+    line-height: 2rem;
+}
+
 .about_img {
     width: 30%;
+    position: relative;
+}
+
+#section_5 .img_around {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto
+}
+
+.about_img span {
+    color: var(--primary-color);
+    font-size: 10rem;
+    position: absolute;
+    right: 10px;
+    top: -20px;
+}
+
+.about_img p {
+    font-size: 25px;
+    color: var(--primary-color);
+    padding: 1rem 0;
+}
+
+#section_5 .btn {
+    padding: 0.5rem 1rem;
 }
 
 /* SECTION 6 */

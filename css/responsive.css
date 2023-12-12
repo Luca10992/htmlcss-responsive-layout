@@ -89,10 +89,22 @@
     #section_4 .row .col {
         width: 100%;
     }
+    
+    /* SECTION 5 */
 
     #section_5 .about_text, 
     #section_5 .about_img {
         width: 100%;
-        text-align: center;    
     }
+
+    #section_5 .about_text * {
+        padding: 1rem 0;
+    }
+
+    #section_5 .about_img span {
+        right: 50px;
+    }
+    
+
+
 }
