@@ -413,16 +413,52 @@ ul {
 
 #section_6 {
     background-color: var(--primary-color);
-
+    color: white;
+    
     /* DEBUG */
     min-height: 200px;
 }
 
 #section_6 .container {
-    width: 50%;
+    max-width: 400px;
     min-width: 300px;
     text-align: center;
-    padding: 3rem 0;
+    padding: 3rem 1rem;
+}
+
+#section_6 h1 {
+    padding: 2rem 0;
+    color: #FDC15F;
+    font-size: 70px;
+}
+
+#section_6 h2 {
+    padding-top: 1.5rem;
+}
+
+#section_6 p {
+    line-height: 1.5rem;
+}
+
+#section_6 .btn {
+    margin: 1.5rem 0;
+    padding: 1.25rem 5rem;
+    font-size: medium;
+    color: var(--primary-color);
+}
+
+#section_6 a {
+    color: white;
+}
+
+.fa-circle {
+    font-size: 3px;
+    vertical-align: middle;
+    padding: 0 2px;
+}
+
+#section_6 h6 {
+    font-size: 13px;
 }
 
 /* !FOOTER */
