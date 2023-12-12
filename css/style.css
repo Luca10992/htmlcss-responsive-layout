@@ -297,6 +297,8 @@ ul {
 }
 
 #section_4 h2 {
+    font-size: 30px;
+    padding-bottom: 2.5rem;
     text-align: center;
     color: white;
 }
@@ -315,9 +317,37 @@ ul {
 
 #section_4 .card {
     background-color: white;
+    text-align: start;
+    padding: 2rem 1rem;
 
     /* DEBUG */
     min-height: 100px;
+}
+
+#section_4 h1 {
+    font-size: 60px;
+}
+
+#section_4 p {
+    line-height: 1.5rem;
+    font-size: 14px;
+    padding-bottom: 1rem;
+}
+
+#section_4 h4 {
+    font-size: 20px;
+    padding: 0.5rem 0;
+}
+
+#section_4 h1,
+#section_4 h4 {
+    color: var(--primary-color);
+}
+
+.btn-violet {
+    padding: 0.5rem 2.5rem;
+    color: white;
+    background-color: var(--primary-color);
 }
 
 /* Section 5 */
